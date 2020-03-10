@@ -68,7 +68,7 @@ At the end of this hands-on lab, you will be better able to configure Azure netw
    
    > terraform plan
    
-6. Apply your terraform template:
+6. Apply your terraform template (It takes at least 45 minutes to be complete):
 
    > terraform apply
 
