@@ -1,4 +1,4 @@
-# Azure Networking hands-on lab step-by-step
+# Azure Networking Terraform lab templates
 
 ## Overview
 
