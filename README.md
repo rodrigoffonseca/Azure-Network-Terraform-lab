@@ -1,7 +1,7 @@
 # Azure Networking Terraform lab templates
 
 ## Credits:
-This lab infrasctucture was created and inspired based on Adilson Coutrin Azure Basic Networking Lab:
+This lab infrasctucture was created and inspired based on Adilson Coutrim Azure Basic Networking Lab:
 https://github.com/adicout/lab/tree/master/Network/basic-networking
 For detailed instructions and information, visit his repo!
 
