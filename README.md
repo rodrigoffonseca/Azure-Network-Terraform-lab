@@ -35,7 +35,12 @@ At the end of this hands-on lab, you will be better able to configure Azure netw
 
 ## How to use the templates
 
-1. Edit main.tf file and change the following configuration:
+1. Download terraform files:
+   * main.tf
+   * variables.tf
+   * terraform.tfvars
+   
+2. Edit main.tf file and change the following configuration:
    * Locate Provider AzureRM and change to match your subscription information:
      * subscription_id = Your Azure Subscription ID
      * client_id       = Your Azure Service Principal App ID
@@ -44,7 +49,7 @@ At the end of this hands-on lab, you will be better able to configure Azure netw
     * If you do not have a service principal, please follow this guide to create one:
     https://www.terraform.io/docs/providers/azurerm/guides/service_principal_client_secret.html
     
-2. Edit terraform.tfvars file and change the following variable values:
+3. Edit terraform.tfvars file and change the following variable values:
    * location = Azure Region where you want to deploy
    * prefix = Prefix string that will be used for resource creation
    * adminname = Windows VM Local Admin Name
@@ -52,16 +57,18 @@ At the end of this hands-on lab, you will be better able to configure Azure netw
    * vmsize = "Standard_D2s_v3" (Azure VM Size you want to use, change if needed)
    * frontdoorname = Azure Front Door Host Name. It will be name that you will use to access Front Door later and must be unique.  
      Example: myfrontdoor01.azurefd.net
-   
-3. Initiliaze your terraform environment:
+
+> You can use Azure Cloud Shell to execute your terraform template: https://shell.azure.com 
+
+4. Initiliaze your terraform environment:
    
    > terraform init
    
-4. Plan and review your terraform deployment:
+5. Plan and review your terraform deployment:
    
    > terraform plan
    
-5. Apply your terraform template:
+6. Apply your terraform template:
 
    > terraform apply
 
