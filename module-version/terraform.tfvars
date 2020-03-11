@@ -1,0 +1,8 @@
+location = "westus"
+prefix = "foca"
+adminname = "rfonseca"
+adminpwd = "P@ssword012345"
+vmsize = "Standard_D2s_v3"
+scriptping = "https://aznetworkinghandson.blob.core.windows.net/public/enable-icmp.ps1"
+scriptiis = "https://safocaapp.blob.core.windows.net/public/deploy-iis.ps1"
+frontdoorname = "petfrontdoor"
