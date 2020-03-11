@@ -76,6 +76,7 @@ At the end of this hands-on lab, you will be better able to configure Azure netw
 
 * Follow Exercise 11 from Basic Networking Guide: https://github.com/adicout/lab/tree/master/Network/basic-networking
 * Get your Front Door Hostname (Example: myfrontdoor.azurefd.net) and access it using your favorite Internet Browser:
+  * You must use HTTP because website only respond to HTTP (TCP 80) port: http://myfrontdoor.azurefd.net
   * You should be able to access the Web Application on the Spoke VNET.
   * You access is flowing thru Azure Front Door to Azure Firewall, at Azure Firewall there's a NAT Rule that send communication to the internal Load Balancer that publish you web site via Private IP.
 
