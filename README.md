@@ -40,6 +40,8 @@ At the end of this hands-on lab, you will be better able to configure Azure netw
    * variables.tf
    * terraform.tfvars
    
+   > In the Module-Version folder you will find the same Terraform templated with files divided by Azure Modules to make easier to you    find what resource you need to create and how to do it.
+   
 2. Edit main.tf file and change the following configuration:
    * Locate Provider AzureRM and change to match your subscription information:
      * subscription_id = Your Azure Subscription ID
