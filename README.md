@@ -3,6 +3,7 @@
 ## Credits:
 This lab infrasctucture was created and inspired based on Adilson Coutrim Azure Basic Networking Lab:
 https://github.com/adicout/lab/tree/master/Network/azure-networking-hub-spoke-lab
+
 For detailed instructions and information, visit his repo!
 
 ## Overview
